@@ -1,0 +1,158 @@
+body {
+  font-family: 'Muli', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #E6E6FA;
+  /* Lavender */
+  color: #4B0082;
+  /* Deep Purple */
+}
+
+header {
+  background-color: #4B0082;
+  /* Deep Purple */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Rakkas', cursive;
+}
+
+nav {
+  background-color: #E6E6FA;
+  /* Lavender */
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 40px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #4B0082;
+  /* Deep Purple */
+  font-weight: bold;
+  font-family: 'Tienne', serif;
+}
+
+.full-screen {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.floating-box {
+  background: rgba(75, 0, 130, 0.1);
+  /* Transparent Deep Purple */
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+}
+
+.two-column {
+  display: flex;;
+  margin-right: 200px;
+}
+
+#about,
+#resume,
+#projects,
+#blog,
+#testimonials,
+#contact {
+  padding: 10px 10px;
+}
+
+.content-box,
+.scrollable-content {
+  background: rgba(75, 0, 130, 0.1);
+  /* Transparent Deep Purple */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.scrollable-content {
+  max-height: 700px;
+  max-width: 200%;
+  overflow-y: scroll;
+}
+.scroll-bg{
+  width:400px;
+  
+}
+h2 {
+  border-bottom: 2px solid #4B0082;
+  /* Deep Purple */
+  padding-bottom: 10px;
+  font-family: 'Tienne', serif;
+}
+
+h3 {
+  color: #9932CC;
+  /* Dark Orchid */
+  font-family: 'Tienne', serif;
+}
+
+.two-column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.vertical-line {
+  border-left: 2px solid #4B0082;
+  /* Deep Purple */
+  height: auto;
+  margin: 0 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+form label {
+  margin-bottom: 10px;
+}
+
+form input,
+form button {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #9966CC;
+  /* Amethyst */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #9932CC;
+  /* Dark Orchid */
+}
+
+
+#resume_actual {
+  /* height: 90vh; */
+}
